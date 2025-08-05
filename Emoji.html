@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            height: 100vh;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding: 50px 0px;
+        }
+        .container{
+            height: 400px;
+            width: 500px;
+            border: 2px solid black;
+            font-size: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+  
+        }
+        button{
+            font-size: 20px;
+            font-weight: 700;
+            padding: 10px 20px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      😁
+    </div>
+    <button onclick="changeEmoji()">Change Emoji</button>
+    <script src="./Emoji.js">
+    </script>
+  </body>
+</html>
